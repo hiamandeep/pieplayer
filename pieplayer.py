@@ -1,3 +1,13 @@
+"""
+Copyright (c) 2015, Aman Deep
+All rights reserved.
+
+PiePlayer:
+A Basic Music Player witten in python using Gstreamer framework with Tkinter as the Gui toolkit.
+
+"""
+
+
 #!/usr/bin/env python
 import pygst
 pygst.require('0.10')
@@ -131,4 +141,3 @@ root=Tk()
 obj=App(root)
 
 root.mainloop()
-print 'hi'
